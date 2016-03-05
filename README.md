@@ -2,7 +2,7 @@
 
 Premise: Painfully slow moving ball for single player pong.  You really have to try to lose.
 
-The premise for the ball speed was based on the movie trailer for [https://www.youtube.com/watch?v=bY73vFGhSVk][Zootopia] DMV Sloths.
+The premise for the ball speed was based on the movie trailer for [Zootopia](https://www.youtube.com/watch?v=bY73vFGhSVk "Zootopia") DMV Sloths.
 
 ## Why it's "Demotivatonal"
 
