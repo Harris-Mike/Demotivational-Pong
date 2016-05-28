@@ -1,24 +1,40 @@
 <!doctype html>
- <html> 
+ <html>
  <head>
-  <title>Demotivational Pong</title> 
-  <meta charset="utf-8"> 
+  <title>Demotivational Pong</title>
+  <meta charset="utf-8">
   <style>
   canvas { border: 2px solid black;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;
     display: block;
+    float: left;
     width: 800px;
+
  }
+ div{float: right;}
 </style>
- <script src="demotivationalpong.js"></script> 
-</head> 
-<body> 
+ <script src="demotivationalpong.js"></script>
+</head>
+<body>
+  <div>
+    <h1>Demotivatonal Pong</h1>
+  Premise: Painfully slow moving ball for single player pong. You really have to try to lose.
+  <br><br>
+  The premise for the ball speed was based on the movie trailer for Zootopia DMV Sloths.
+  <br><br>
+  <h1>Why it's "Demotivatonal"</h1>
+  
+  With it being such an easy game it's really hard to lose. Your patience alone to keep playing is demotivatonal enough.
+  <br><br>
+  The key is if you don't beat the high score in two tries: A "demotivatonal array" was created with a handful of demotivatonal messages that are shown as an alert with a Math.random access of one of the string elements.
+  <br><br>
+  An alert popup runs denoting how many times you've "Made baby Jesus cry" (failed to beat the high score) with a counter accessed from local storage followed by a line break then randomized message followed by another line break ending with "Thanks for playing champ!"
+  <br><br>
+  Perservering through waiting to lose over and over with this painfully slow ball and seeing the alert over and over just to get the "easter egg" of finding all the messages is the end goal I had in mind.
+  </div>
+  <br><br><br><hr>
 	Hits: <span id = "hitCounter"> </span> <br>
-  High Score: <span id="highScore"></span>
-<canvas width="600" height="500"id="MyCanvas">
-</canvas> 
-</body> 
+  High Score: <span id="highScore"><br>
+<canvas width="600" height="500"id="MyCanvas"></canvas>
+
+</body>
 </html>
