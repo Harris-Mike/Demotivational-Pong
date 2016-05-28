@@ -23,7 +23,7 @@ window.onload = function(){
 	canvas = document.getElementById("MyCanvas");
 	paddleY=70;
  ctx = canvas.getContext("2d");
- document.addEventListener("mousemove", mouseMoveHandler, false);
+ canvas.addEventListener("mousemove", mouseMoveHandler, false);
 	localStorage.setItem("highscore", 0);
 	 localStorage.setItem("gameOver", 0);
 	setInterval(paint, 17);
@@ -99,6 +99,7 @@ function paint() {
 	drawBall();
 	drawPaddle();
 
+	barhitball();
 
 }
 function mouseMoveHandler(e) {
