@@ -61,6 +61,7 @@ function gameOver(){
                         Cx=Cx+canvas.width/2;
 }
 counter=0;
+document.getElementById("hitCounter").innerHTML=counter;
 }
 //use the clear canvas to redraw ball (movement)
 function clearCanvas(){
@@ -99,7 +100,6 @@ function paint() {
 	drawBall();
 	drawPaddle();
 
-	barhitball();
 
 }
 function mouseMoveHandler(e) {
